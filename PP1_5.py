@@ -1,11 +1,12 @@
 
 def q1():
   var = int(input("Input an integer: "))
-  print(var)
+  print(int(var + 3))
 
 def q2():
-  varOne = float(input("Input a number: "))
-  print(varOne + 4)
+  varOne = (input("Input a number: "))
+  varOne = float(varOne + "4")
+  print(varOne + 2)
 
 def q3():
   radius = float(input("Input a radius: "))
@@ -21,10 +22,10 @@ def q5():
 
 #Comment this code out when running tests
 #Do not comment this out when running your program normally
-
+'''
 q1()
 q2()
 q3()
 q4()
 q5()
-
+'''
