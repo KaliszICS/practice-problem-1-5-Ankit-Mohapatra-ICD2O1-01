@@ -1,7 +1,7 @@
 
 def q1():
   var = int(input("Input an integer: "))
-  print(int(var + 3))
+  print(var + 3))
 
 def q2():
   varOne = (input("Input a number: "))
